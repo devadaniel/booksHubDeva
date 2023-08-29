@@ -1,0 +1,37 @@
+.not-found-container {
+  background-color: #edeff1;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-image {
+  height: 151px;
+  width: 225px;
+}
+
+.page-not-found {
+  font-size: 18px;
+  color: #334155;
+  font-family: 'Roboto';
+}
+
+.not-found-description {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+.not-found-button {
+  font-family: 'Roboto';
+  height: 32px;
+  width: 132px;
+  color: #ffffff;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+}

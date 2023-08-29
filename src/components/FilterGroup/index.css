@@ -1,0 +1,78 @@
+.books-details-bg-container {
+  background-color: rgb(216, 237, 243);
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.books-details-card-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+@media screen and (min-width: 768px) {
+  .books-details-card-container {
+    margin: 50px;
+  }
+  .book-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.filter-item {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+
+.filter-button-item {
+  border: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+  background-color: transparent;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .filter-button-item {
+    padding: 5px;
+    border: 1px solid #0284c7;
+    border-radius: 10px;
+    font-family: 20px;
+    color: #0284c7;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
+
+.tab-active {
+  color: #0284c7;
+}
+
+@media screen and (max-width: 768px) {
+  .tab-active {
+    color: #ffffff;
+    background-color: #0284c7;
+  }
+}
+
+.author-heading,
+.about-book-heading {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 24px;
+}
+
+.author-description,
+.about-book-description {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}

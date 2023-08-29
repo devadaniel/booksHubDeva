@@ -1,0 +1,127 @@
+.header-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 10px;
+}
+
+.header-logo-image {
+  height: 30px;
+  width: 100px;
+  padding-left: 10px;
+}
+.large-container-home-products-cart-logout-btn-container {
+  display: none;
+}
+
+.desktop-view-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-view-container {
+  margin-top: 0px;
+}
+
+.menu-icon {
+  height: 25px;
+  width: 25px;
+}
+.menu-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.nav-items {
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+  margin-left: 10px;
+  margin: 10px;
+  display: flex;
+  padding-left: 3px;
+}
+.items {
+  margin: 3px;
+}
+.logout-btn {
+  background-color: blueviolet;
+  padding: 5px;
+  height: 30px;
+  width: 70px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 7px;
+  margin-right: 7px;
+}
+.nav-link-item {
+  text-decoration: none;
+}
+.popup-container {
+  display: flex;
+}
+.popup-content {
+  width: 300px;
+  border-radius: 5px;
+}
+.hamburgerIconButton {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.close-icon-button {
+  border: none;
+  color: #000000;
+  background-color: transparent;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-view-header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile-view-container {
+    display: none;
+  }
+  .large-container-home-products-cart-logout-btn-container {
+    display: flex;
+    padding-right: 40px;
+  }
+  .header-logo-image {
+    height: 50px;
+    width: 200px;
+    padding-left: 40px;
+  }
+  .menu-items {
+    list-style-type: none;
+    display: flex;
+  }
+  .nav-items {
+    font-family: 'Roboto';
+    color: darkslategrey;
+    font-size: 14px;
+    margin: 10px;
+  }
+  .logout-btn {
+    background-color: blueviolet;
+    padding: 5px;
+    height: 30px;
+    width: 70px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+}

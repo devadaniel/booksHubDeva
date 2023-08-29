@@ -1,0 +1,70 @@
+.book-list-item-container {
+  list-style-type: none;
+  margin-top: 50px;
+  padding-left: 0px;
+}
+.each-book-details-container {
+  display: flex;
+}
+.cover-pic-image {
+  height: 200px;
+  width: 170px;
+  margin-right: 15px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.book-item-details {
+  width: 160px;
+}
+.book-item-heading {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 16px;
+  width: 100px;
+  margin-top: 0px;
+}
+.book-item-author {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 14px;
+  margin-top: 0px;
+}
+.avg-rating-star-icon-container {
+  display: flex;
+}
+
+.avg-rating {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+.rating {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #334155;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.star-icon {
+  color: #fbbf24;
+}
+
+.status {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+.status-text {
+  color: #0284c7;
+  font-size: 12px;
+  font-weight: 'Roboto';
+  margin-left: 0px;
+}
+.books-nav-link {
+  text-decoration: none;
+}
