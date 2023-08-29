@@ -101,7 +101,7 @@ class Home extends Component {
             return (
               <div className="slick-item">
                 <Link to={`/books/${id}`} className="slider-nav-link-books">
-                  <img className="book-image" src={coverPic} alt={title} />
+                  <img className="book-image" src={coverPic} alt="title" />
                   <h1 className="book-title">{title}</h1>
                   <p className="author-name">{authorName}</p>
                 </Link>
