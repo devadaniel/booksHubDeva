@@ -1,12 +1,7 @@
-import {Link} from 'react-router-dom'
+impot {Link} from "react-router-dom"
 import './index.css'
-
-const NotFound = props => {
-  const onClickBackToHome = () => {
-    const {history} = props
-    history.replace('/')
-  }
-  return (
+ 
+const NotFound = () => (
     <div className="not-found-container">
       <img
         src="https://res.cloudinary.com/ds9bayvoj/image/upload/v1693307106/Group_7484page_not_found_twdptt.png"
@@ -22,13 +17,11 @@ const NotFound = props => {
         <button
           className="not-found-button"
           type="button"
-          onClick={onClickBackToHome}
         >
           Go Back to Home
         </button>
       </Link>
     </div>
   )
-}
 
 export default NotFound
