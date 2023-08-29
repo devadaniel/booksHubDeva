@@ -95,19 +95,19 @@ class LoginForm extends Component {
       <div className="login-form-container">
         <img
           src="https://res.cloudinary.com/ds9bayvoj/image/upload/v1692949146/Rectangle_1467LoginpageImage_ixtttt.jpg"
-          alt="login-page-image"
+          alt="website login"
           className="login-lg-image"
         />
         <img
           src="https://res.cloudinary.com/ds9bayvoj/image/upload/v1692954906/Ellipse_99Ellipsse_99_image_wlvm3i.jpg"
-          alt="login-page-image"
+          alt="website login"
           className="logo-sm-image"
         />
 
         <form className="form-container" onSubmit={this.onSubmitUser}>
           <img
             src="https://res.cloudinary.com/ds9bayvoj/image/upload/v1692948949/Group_7731BooKHubLogo_mumfwd.jpg"
-            alt="website logo"
+            alt="login website logo"
             className="logo-image"
           />
           <div className="username-password-container">
