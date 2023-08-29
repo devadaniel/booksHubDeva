@@ -59,7 +59,7 @@ class LoginForm extends Component {
           id="username"
           value={username}
           className="input-box"
-          placeholder="Your name*"
+          placeholder="Ex-rahul"
           onChange={this.onChangeUsername}
         />
       </div>
@@ -78,7 +78,7 @@ class LoginForm extends Component {
           id="password"
           value={password}
           className="input-box"
-          placeholder="Password*"
+          placeholder="Ex-rahul@2021"
           onChange={this.onChangePassword}
         />
       </div>
@@ -95,12 +95,12 @@ class LoginForm extends Component {
       <div className="login-form-container">
         <img
           src="https://res.cloudinary.com/ds9bayvoj/image/upload/v1692949146/Rectangle_1467LoginpageImage_ixtttt.jpg"
-          alt="login website logo"
+          alt="login-page-image"
           className="login-lg-image"
         />
         <img
           src="https://res.cloudinary.com/ds9bayvoj/image/upload/v1692954906/Ellipse_99Ellipsse_99_image_wlvm3i.jpg"
-          alt="website login"
+          alt="login-page-image"
           className="logo-sm-image"
         />
 
